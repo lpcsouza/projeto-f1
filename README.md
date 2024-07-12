@@ -18,16 +18,3 @@ Este projeto foi desenvolvido utilizando apenas tecnologias front-end básicas:
 - CSS3
 
 Não foram utilizados frameworks CSS ou bibliotecas JavaScript adicionais, demonstrando o poder e a flexibilidade do HTML e CSS puros.
-
-## Estrutura do Projeto
-
-O projeto está organizado da seguinte forma:
-
-projeto-f1/
-│
-├── index.html
-├── styles/
-│   └── main.css
-├── images/
-│   └── [imagens do projeto]
-└── README.md
