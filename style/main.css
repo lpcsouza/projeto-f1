@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: 0;
+  font-family: "Racing Sans One", sans-serif;
+  --f1red: #e10600;
+  --f1black: #1f1f27;
+  --f1purple: #501d83;
+}
+
+header {
+  height: 90px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav {
+  width: 60%;
+}
+
+ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+li {
+  list-style: none;
+  color: var(--f1red);
+  cursor: pointer;
+  font-size: 19px;
+  transition: 0.5s;
+}
+
+li:hover {
+  color: var(--f1black);
+}
+
+#logo {
+  width: 150px;
+  height: auto;
+}
+
+#banner {
+  background-image: url("https://assets-prd.ignimgs.com/2024/07/05/brad-pitt-f1-poster-and-release-1720192311842.jpeg");
+  background-position: 50% 50%;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+}
