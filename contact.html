@@ -3,7 +3,80 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact us</title>
+    <title>F1 -- The Movie</title>
+    <link rel="stylesheet" href="./style/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <img id="logo" src="./imgs/F1-Logo.png" />
+      <nav>
+        <ul>
+          <a href="index.html"><li>Home</li></a>
+          <a href="contact.html"><li>Contact</li></a>
+          <a href="pilots.html"><li>Pilots</li></a>
+          <a href="reviews.html"><li>Reviews</li></a>
+        </ul>
+      </nav>
+    </header>
+    <div class="contact-body">
+      <div class="container-form">
+        <form class="contact-form">
+          <h2>Contact Us</h2>
+          <div class="form-group">
+            <label for="first-name">First name</label>
+            <input
+              type="text"
+              id="first-name"
+              name="first-name"
+              placeholder="First name"
+            />
+          </div>
+          <div class="form-group">
+            <label for="last-name">Last name</label>
+            <input
+              type="text"
+              id="last-name"
+              name="last-name"
+              placeholder="Last name"
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Email address</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Email address"
+            />
+          </div>
+          <div class="form-group">
+            <label for="textarea">Message</label>
+            <textarea> </textarea>
+          </div>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </div>
+
+    <footer>
+      <img style="object-fit: contain" id="logo" src="./imgs/F1-Logo.png" />
+      <span>Todos os direitos reservados ©</span>
+      <span>Desenvolvido por: Luiz Paulo Souza</span>
+
+      <nav class="footer-nav">
+        <ul class="footer-list">
+          <a href="#"><li>Home</li></a>
+          <a href="contact.html"><li>Contact</li></a>
+          <a href="pilots.html"><li>Pilots</li></a>
+          <a href="reviews.html"><li>Reviews</li></a>
+        </ul>
+      </nav>
+    </footer>
+  </body>
 </html>

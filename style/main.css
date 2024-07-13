@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   text-decoration: 0;
+  outline: none;
   font-family: "Racing Sans One", sans-serif;
   --f1red: #e10600;
   --f1black: #1f1f27;
@@ -48,4 +49,256 @@ li:hover {
   background-size: cover;
   width: 100%;
   height: 600px;
+}
+
+#trailer-container {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#sinopse {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 30px;
+}
+
+.description {
+  color: var(--f1black);
+  font-size: 19px;
+  width: 70%;
+}
+
+.button {
+  width: 200px;
+  height: 60px;
+  background-color: var(--f1black);
+  color: white;
+  padding: 8px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: 0.8s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  margin-top: 25px;
+}
+
+.button:hover {
+  background-color: var(--f1red);
+  color: white;
+}
+
+.actor-cards-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.cards-content {
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 20px;
+  column-gap: 40px;
+}
+
+.card {
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-position: 50% 50%;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 1s;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 20px 10px;
+  color: var(--f1purple);
+  font-size: 17px;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.banner-1 {
+  background-image: url("https://goldenglobes.com/wp-content/uploads/2023/10/brad-pitt_03_paramount-pictures.jpg");
+}
+
+.banner-2 {
+  background-image: url("https://i2-prod.mirror.co.uk/incoming/article30330949.ece/ALTERNATES/s1200c/0_54th-NAACP-Image-Awards-Arrivalsjpgrica.jpg");
+}
+
+.banner-3 {
+  background-image: url("https://cdn.britannica.com/29/124329-050-A15813B2/Javier-Bardem-Spanish.jpg");
+}
+
+footer {
+  height: 300px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+span {
+  color: var(--f1black);
+}
+
+.footer-nav {
+  display: none;
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .footer-nav {
+    display: block;
+  }
+
+  nav {
+    display: block;
+  }
+
+  #banner {
+    background-position: 40%;
+  }
+
+  #trailer {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .trailer {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  #sinopse {
+    width: 95%;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .description {
+    width: 100%;
+  }
+
+  .button {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .cards-content {
+    grid-template-columns: 1fr;
+    margin-top: 150px;
+  }
+}
+
+/* CONTACT CSS */
+
+.contact-body {
+  width: 100%;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  margin: 0;
+}
+
+.container-form {
+  min-width: 30%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  color: white;
+  background-color: var(--f1red);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.contact-form h2 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-group {
+  width: 100%;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+}
+
+button {
+  width: 300px;
+  background-color: var(--f1black);
+  color: #fff;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.3s ease-out;
+}
+
+button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
 }
