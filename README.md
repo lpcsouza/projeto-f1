@@ -6,10 +6,16 @@ Este projeto faz parte do curso Profissão Programador e consiste em um site fic
 
 O site oferece aos fãs a oportunidade de comprar ingressos antecipados para o lançamento do filme "F1". Além da funcionalidade principal de venda de ingressos, o site também inclui:
 
+O site oferece aos fãs a oportunidade de comprar ingressos antecipados para o lançamento do filme "F1". Além da funcionalidade principal de venda de ingressos, o site também inclui:
+
 - Exibição do trailer do filme
 - Informações sobre o elenco
-- Detalhes sobre o filme
+- Detalhes sobre a produção e bastidores
+- Galeria de fotos
+- Seção de comentários dos fãs
+- Página de contato
 
+  
 ## Tecnologias Utilizadas
 
 Este projeto foi desenvolvido utilizando apenas tecnologias front-end básicas:
